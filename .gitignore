@@ -1,0 +1,6 @@
+# Local, per-user Claude Code settings (not shared)
+.claude/settings.local.json
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db

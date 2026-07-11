@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Texas Interactive Map — Regions &amp; Native People</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app">
+  <header class="app-header">
+    <h1 id="map-title">Geographic Regions of Texas</h1>
+    <label class="mode-select-wrap" for="mode-select">
+      <span class="mode-select-label">Choose a map:</span>
+      <select id="mode-select">
+        <option value="geography">Geographic Regions of Texas</option>
+        <option value="native">Native People of Texas</option>
+      </select>
+    </label>
+  </header>
+
+  <main class="app-main">
+    <div class="map-panel">
+      <svg id="texas-map" viewBox="0 0 560 520" role="img" aria-labelledby="map-title">
+        <g id="outline-layer"></g>
+        <g id="regions-layer"></g>
+        <g id="subregions-layer" aria-hidden="true"></g>
+        <g id="region-labels-layer" aria-hidden="true"></g>
+        <g id="cities-layer" aria-hidden="true"></g>
+      </svg>
+      <p class="map-hint" id="map-hint">Click a region to learn more about it. Click it again to reset.</p>
+    </div>
+
+    <aside class="info-panel" id="info-panel" aria-live="polite">
+      <div class="info-panel-default">
+        <h2>Pick a region</h2>
+        <p>Click any colored region on the map to see facts about it here.</p>
+      </div>
+    </aside>
+  </main>
+</div>
+
+<script src="data/regions.js"></script>
+<script src="data/nativePeoples.js"></script>
+<script src="data/mapShapes.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
