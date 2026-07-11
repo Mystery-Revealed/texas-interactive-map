@@ -56,7 +56,7 @@
       }
       if (line.label) {
         const label = el('text', {
-          class: 'subregion-label',
+          class: line.landform ? 'landform-label' : 'subregion-label',
           x: line.labelX,
           y: line.labelY,
           'text-anchor': line.anchor || 'start'

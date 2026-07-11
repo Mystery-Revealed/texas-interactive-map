@@ -141,6 +141,19 @@ html, body {
   stroke-linejoin: round;
 }
 
+/* Landform features (escarpments, etc.) — italic to distinguish from subregions */
+.landform-label {
+  font-size: 9px;
+  fill: #6b4f3a;
+  font-weight: 600;
+  font-style: italic;
+  pointer-events: none;
+  paint-order: stroke;
+  stroke: #ffffff;
+  stroke-width: 3px;
+  stroke-linejoin: round;
+}
+
 /* Region name labels on the map — the standout titles */
 .region-name-label {
   font-size: 15.5px;

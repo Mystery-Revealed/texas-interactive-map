@@ -94,7 +94,7 @@ const SUBREGION_LINES = [
   { label: 'Rolling Plains', labelX: 302, labelY: 126, anchor: 'middle' },
   { label: 'High Plains (Llano Estacado)', labelX: 220, labelY: 48, anchor: 'middle' },
   { label: 'Edwards Plateau (Hill Country)', labelX: 292, labelY: 308, anchor: 'middle' },
-  { label: 'Caprock Escarpment', labelX: 238, labelY: 104, anchor: 'middle' }
+  { label: 'Caprock Escarpment', labelX: 238, labelY: 104, anchor: 'middle', landform: true }
 ];
 
 // Mode B: Native People of Texas — a different four-way split of the outline,
