@@ -29,8 +29,8 @@ Plain HTML + CSS + vanilla JavaScript with inline SVG. No framework, no build st
 | 3 | Core interactivity (dropdown, click/brighten/raise, info panel, reset) | Sonnet | ✅ Done (verified programmatically + screenshots) |
 | 4 | Style & polish (responsive, labels, ARIA/keyboard) | Sonnet | ✅ Done (mobile 390px verified; label collisions checked in both modes) |
 | 5 | Local QA | Sonnet | ✅ Done (all 8 regions clicked in both modes, console clean) |
-| 6 | Deploy to static hosting (GitHub Pages recommended) | Sonnet or Haiku | ⬜ Next — needs: git commit, GitHub repo, enable Pages |
-| 7 | Wix iframe embed (snippet + instructions) | Sonnet | ⬜ After deploy |
+| 6 | Deploy to static hosting (GitHub Pages) | Sonnet or Haiku | ✅ Done — live at https://mystery-revealed.github.io/texas-interactive-map/ (repo: https://github.com/Mystery-Revealed/texas-interactive-map, public, Pages from master root) |
+| 7 | Wix iframe embed (snippet + instructions) | Sonnet | ✅ Done — see `docs/WIX_EMBED.md` |
 | 8 | Final accuracy & reading-level pass against CONTENT.md + TEKS list | Opus (or Fable) | ⬜ Last |
 
 ## Verification checklist (for steps 6–8)
